@@ -9,7 +9,7 @@ void draw(){
 void bloom(int x, int y, int rad){
   fill((int)(mouseX/5), 255, (int)(mouseX/4));
   if(rad <= 20)
-    circle(x, y, rad);
+    ellipse(x, y, rad, rad);
    else{
       bloom(x, y - rad/2, rad/3);
       bloom(x, y + rad/2, rad/3);
