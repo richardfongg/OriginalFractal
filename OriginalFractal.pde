@@ -15,9 +15,9 @@ void bloom(int x, int y, int rad){
       bloom(x, y + rad/2, rad/3);
       bloom(x+rad/2, y, rad/3);
       bloom(x-rad/2, y, rad/3);
-      bloom(x+rad, y - rad/2, rad/2);
-      bloom(x-rad, y - rad/2, rad/2);
-      bloom(x+rad, y + rad/2, rad/2);
-      bloom(x-rad, y + rad/2, rad/2);
+      bloom(x+rad, y - rad, rad/2);
+      bloom(x-rad, y - rad, rad/2);
+      bloom(x+rad, y + rad, rad/2);
+      bloom(x-rad, y + rad, rad/2);
    }
 }
